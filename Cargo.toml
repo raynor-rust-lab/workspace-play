@@ -3,6 +3,9 @@ members = [
     "vapp01",
     "vlib01",
 ]
+default-members = [
+    "vlib01",
+]
 
 [package]
 name = "workspace-play"
@@ -11,3 +14,6 @@ edition = "2021"
 resolver = "2"
 
 [dependencies]
+
+[workspace.package]
+homepage = "https://blog.only1u.org"
