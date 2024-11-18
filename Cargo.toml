@@ -13,12 +13,13 @@ default-members = [
 [package]
 name = "workspace-play"
 version = "0.1.0"
+resolver = "2"
+edition.workspace = true
 
 
 [workspace.package]
 homepage = "https://blog.only1u.org"
 edition = "2021"
-resolver = "2"
 license = "MIT OR Apache-2.0"
 description = "A workspace for playing around with Cargo workspaces"
 authors = ["Raynor Yim <raynor.yim@gmail.com>"]
