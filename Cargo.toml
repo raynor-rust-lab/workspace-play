@@ -1,10 +1,13 @@
 [workspace]
-members = [
-    "vapp01",
-    "vlib01",
+#members = ["vapp01","vlib01", "vlib07"]
+members = ["vapp01","vlib*"]
+
+exclude = [
+    "vlib07",
 ]
+
 default-members = [
-    "vlib01",
+    "vlib*",
 ]
 
 [package]

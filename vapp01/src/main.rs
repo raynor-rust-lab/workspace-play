@@ -20,7 +20,4 @@ mod tests {
         // Check if the function executed without panicking
         assert!(output.is_ok());
     }
-
 }
-
-
