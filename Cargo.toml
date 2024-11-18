@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "vapp01",
+    "vlib01",
+]
+
+[package]
+name = "workspace-play"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
