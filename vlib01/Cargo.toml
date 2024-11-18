@@ -1,9 +1,11 @@
 [package]
 name = "vlib01"
 version = "0.1.0"
-edition = "2021"
+edition.workspace = true
 homepage.workspace = true
-
+description = "vlib01:A library for the workspace"
+license.workspace = true
+authors.workspace = true
 
 [dependencies]
 

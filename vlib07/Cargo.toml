@@ -3,5 +3,11 @@ name = "vlib07"
 version = "0.1.0"
 edition = "2021"
 homepage.workspace = true
+authors.workspace = true
 
 [dependencies]
+num ={ workspace = true, default-features = true }
+vector2d.workspace = true
+
+[dev-dependencies]
+rand = { workspace = true, features = ["log"] }
