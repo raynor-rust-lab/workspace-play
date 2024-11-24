@@ -1,0 +1,30 @@
+[workspace]
+#members = ["vapp01","vlib01", "vlib07"]
+members = ["vapp01","vlib*"]
+
+exclude = [
+    "vlib07",
+]
+
+default-members = [
+    "vlib*",
+]
+
+[package]
+name = "workspace-play"
+version = "0.1.0"
+resolver = "2"
+edition.workspace = true
+
+
+[workspace.package]
+homepage = "https://blog.only1u.org"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A workspace for playing around with Cargo workspaces"
+authors = ["Raynor Yim <raynor.yim@gmail.com>"]
+
+[workspace.dependencies]
+num ={ version = "0.4",default-features = false }
+vector2d = "2.2"
+rand = "0.8.5"
